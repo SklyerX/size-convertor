@@ -1,0 +1,25 @@
+{
+	"name": "@sklyerx/size-convertor",
+	"version": "0.0.1",
+	"description": "Easily handle file sizes and convert them with human language. The 'ms' package for file sizes",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"repository": {
+		"url": "https://github.com/sklyerx/size-coverntor"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsup"
+	},
+	"keywords": ["file size convertor", "convertor", "file-size", "size"],
+	"author": "https://github.com/sklyerx",
+	"license": "MIT",
+	"devDependencies": {
+		"tsup": "^8.2.4",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"tsx": "^4.17.0"
+	}
+}
